@@ -1,11 +1,83 @@
 // Styles
+.row{
+  // width: 100%;
+  min-width: 100%;
+}
+header{
+	// height: 150px;
+}
+.logo{
+	// width: 150px;
+	// height: 100px;
+	width: 180px;
+	height: 120px;
+	// margin: 35px;
+	margin: 20px;
+}
+.navigation{
+	// float: right;
+	text-align: right;
+}
+.sign-up-in{
+	// float: right;
+	// position: absolute;
+	// right: 0;
+	// text-align: right;
+}
+.sign-up-in a{
+	display: block;
+	color: $grey;
+	font-size: 12px;
+	margin: 18px 0 10px 0;
+}
+// .sign-up-in a:last-child{
+// 	margin: 18px 0 0 0;
+// }
+.main{
+	// float: right;
+}
+.main li{
+	display: inline;
+	margin: 0 2em 0 0;
+	// hi?
+}
+.main li:last-of-type{
+	margin: 0 0 0 0;
+}
+.main a{
+	color: $grey;
+	font-size: 14px;
+	font-weight: 500;
+}
 
+// INTRODUCTION SECTION
 .introduction{
-	background: $gainsboro;
+	background: $oil;
+	padding: 5em 20em;
 }
 .introduction p{
 	text-align: center;
+	font-weight: 300;
 }
+.personal-intro p{
+	color: white;
+	font-size: 24px;
+}
+.personal-intro .large{
+	display: block;
+	font-size: 44px;
+}
+.starting-questions p{
+	color: #BCD430;
+	font-size: 20px;
+}
+.starting-questions .large{
+	display: block;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+// QUESTION & ANSWER SECTIONS
 .question-and-answer p{
 	text-align: center;
 	color: #FFFFFF;
