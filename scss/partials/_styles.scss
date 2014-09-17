@@ -1,0 +1,38 @@
+// Styles
+
+.introduction{
+	background: $gainsboro;
+}
+.introduction p{
+	text-align: center;
+}
+.question-and-answer p{
+	text-align: center;
+	color: #FFFFFF;
+}
+// .question-and-answer p,
+.question-and-answer button,
+.question-and-answer .question-line{
+	display: block;
+	margin: 0 auto;
+}
+.first-question{
+	// background: #8BB34B;
+	background: $yellow-green;
+}
+.second-question{
+	// background: #72AE5C;
+	background: $green;
+}
+.third-question{
+	// background: #48A688;
+	background: $teal;
+}
+.fourth-question{
+	// background: #00A29F;
+	background: $aqua;
+}
+.get-started{
+	// background: #009DB8;
+	background: $blue;
+}
