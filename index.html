@@ -8,154 +8,106 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+    <header>
+      <h1>NORTH STAR</h1>
+      <h1 class="subhead">COUNSELLING</h1>
+      <!-- or h1 logo -->
+      <nav class="sign-up">
+        <p>SIGN UP AND LET US HELP</p>
+        <button>SIGN IN</button>
+      </nav>
+      <nav class="main">
+        <ul>
+          <li>ABOUT US</li>
+          <li>HOW WE CAN HELP</li>
+          <li>WHAT IS ONLINE COUNSELLING</li>
+          <li>HOW IT WORKS</li>
+          <li>FEES</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="intro">
+        <p class="welcome">Welcome to North Star.</p>
+        <p class="name-intro">I'm Cheryl McDougall.</p>
+        <p class="name-credentials">MSW RSW</p>
       </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-      	<div class="panel">
-	        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-	        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-	        <p>Once you've exhausted the fun in this document, you should check out:</p>
-	        <div class="row">
-	        	<div class="large-4 medium-4 columns">
-	    		<p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-	    	</div>
-	        	<div class="large-4 medium-4 columns">
-	        		<p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-	        	</div>
-	        	<div class="large-4 medium-4 columns">
-	        		<p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-	        	</div>        
-					</div>
-      	</div>
+      <div class="starting-questions">
+        <p class="before">Before we go any further,</p>
+        <p class="mind-at-rest">let me put your mind at rest by answering your three most important questions.</p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-12.columns" />
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <div class="row collapse">
-				        <label>Input Label</label>
-				        <div class="small-9 columns">
-				          <input type="text" placeholder="small-9.columns" />
-				        </div>
-				        <div class="small-3 columns">
-				          <span class="postfix">.com</span>
-				        </div>
-				      </div>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Select Box</label>
-				      <select>
-				        <option value="husker">Husker</option>
-				        <option value="starbuck">Starbuck</option>
-				        <option value="hotdog">Hot Dog</option>
-				        <option value="apollo">Apollo</option>
-				      </select>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-6 medium-6 columns">
-				      <label>Choose Your Favorite</label>
-				      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-				      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-				    </div>
-				    <div class="large-6 medium-6 columns">
-				      <label>Check these out</label>
-				      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-				      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Textarea Label</label>
-				      <textarea placeholder="small-12.columns"></textarea>
-				    </div>
-				  </div>
-				</form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-			  <h5>Try one of these buttons:</h5>
-			  <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-				<div class="panel">
-        	<h5>So many components, girl!</h5>
-        	<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
+    <div class="question-and-answer first-question">
+      <p class="question-intro">Your first, and most important, question.</p>
+      <p class="question">Can counselling work for me?</p>
+      <button class="expand-down"></button>
+      <div class="question-line"></div>
+      <p class="answer">Yes it can.</p>
+      <p class="explanation">
+        It helps millions every day in all walks of life, with all kinds of problems. It helps the young and the old, the rich and the poor, the ones who have made it and the ones on their way. It will help you.
+      </p>
     </div>
+
+    <div class="question-and-answer second-question">
+      <p class="question-intro">Your second question is...</p>
+      <p class="question">Can you help me?</p>
+      <button class="expand-down"></button>
+      <div class="question-line"></div>
+      <p class="answer">Aenean massa, mattis congue.</p>
+      <p class="explanation">
+        Mauris non ex odio. Suspendisse augue diam, rutrum a nibh at, porttitor bibendum dui. Donec porttitor nisi a tortor laoreet cursus. Proin porta orci arcu, sit amet mollis nisi efficitur.Mauris non ex odio. Suspendisse augue diam, rutrum a nibh at, porttitor bibendum dui.
+      </p>
+    </div>
+
+    <div class="question-and-answer third-question">
+      <p class="question-intro">Your second question is...</p>
+      <p class="question">Can you help me?</p>
+      <button class="expand-down"></button>
+      <div class="question-line"></div>
+      <p class="answer">Aenean massa, mattis congue.</p>
+      <p class="explanation">
+        Mauris non ex odio. Suspendisse augue diam, rutrum a nibh at, porttitor bibendum dui. Donec porttitor nisi a tortor laoreet cursus. Proin porta orci arcu, sit amet mollis nisi efficitur.Mauris non ex odio. Suspendisse augue diam, rutrum a nibh at, porttitor bibendum dui.
+      </p>
+    </div>
+
+    <div class="question-and-answer fourth-question">
+      <p class="question-intro">Now, I have a question for you.</p>
+      <p class="question">Why have you come to visit me today?</p>
+      <button class="expand-down"></button>
+      <div class="question-line"></div>
+      <p class="answer">Aenean massa, mattis congue.</p>
+      <p class="explanation">
+        Mauris non ex odio. Suspendisse augue diam, rutrum a nibh at, porttitor bibendum dui. Donec porttitor nisi a tortor laoreet cursus. Proin porta orci arcu, sit amet mollis nisi efficitur.Mauris non ex odio. Suspendisse augue diam, rutrum a nibh at, porttitor bibendum dui.
+      </p>
+    </div>
+
+    <div class="get-started">
+      <button>Let's begin...</button>
+    </div>
+
+    <footer>
+      <h1>
+        <img src="logo.png" alt="North Star Counselling">
+      </h1>
+      <p class="copyright">COPYRIGHT © 2014 NORTH STAR COUNSELLING LTD. ALL RIGHTS RESERVED / PRIVACY POLICY</p>
+      <nav class="sign-up">
+        <p>SIGN UP AND LET US HELP</p>
+        <button>SIGN IN</button>
+      </nav>
+      <nav class="main">
+        <ul>
+          <li>ABOUT US</li>
+          <li>HOW WE CAN HELP</li>
+          <li>WHAT IS ONLINE COUNSELLING</li>
+          <li>HOW IT WORKS</li>
+          <li>FEES</li>
+        </ul>
+      </nav>
+    </footer>
+
+
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
