@@ -62,7 +62,7 @@ body {
 /* line 396, ../scss/foundation/components/_global.scss */
 body {
   background: #fff;
-  color: #222;
+  color: #FFFFFF;
   padding: 0;
   margin: 0;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -6584,7 +6584,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: white;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -6593,7 +6593,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 262, ../scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: white;
   line-height: 0;
 }
 
@@ -6604,7 +6604,7 @@ h1 {
 
 /* line 270, ../scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.6875rem;
+  font-size: 1.625rem;
 }
 
 /* line 271, ../scss/foundation/components/_type.scss */
@@ -6630,7 +6630,7 @@ h6 {
 /* line 276, ../scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: white;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -6766,7 +6766,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #FFFFFF;
   border-bottom: 1px dotted #DDDDDD;
   cursor: help;
 }
@@ -6787,7 +6787,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #555555;
+  color: white;
 }
 /* line 406, ../scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -6796,14 +6796,14 @@ blockquote cite:before {
 /* line 410, ../scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: white;
 }
 
 /* line 416, ../scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: white;
 }
 
 /* Microformats */
@@ -6851,7 +6851,7 @@ blockquote p {
 
   /* line 455, ../scss/foundation/components/_type.scss */
   h2 {
-    font-size: 2.3125rem;
+    font-size: 2.25rem;
   }
 
   /* line 456, ../scss/foundation/components/_type.scss */
@@ -9051,77 +9051,101 @@ th.hide-for-touch {
   font-weight: 500;
 }
 
-/* line 54, ../scss/partials/_styles.scss */
+/* line 52, ../scss/partials/_styles.scss */
+section {
+  font-weight: 300;
+  text-align: center;
+  padding: 3em 25em 2.5em 25em;
+}
+
+/* line 59, ../scss/partials/_styles.scss */
 .introduction {
   background: #333333;
   padding: 5em 20em;
 }
 
-/* line 58, ../scss/partials/_styles.scss */
+/* line 63, ../scss/partials/_styles.scss */
 .introduction p {
   text-align: center;
   font-weight: 300;
 }
 
-/* line 62, ../scss/partials/_styles.scss */
+/* line 67, ../scss/partials/_styles.scss */
+.personal-intro {
+  margin: 0 0 10em 0;
+}
+
+/* line 70, ../scss/partials/_styles.scss */
 .personal-intro p {
   color: white;
   font-size: 24px;
 }
 
-/* line 66, ../scss/partials/_styles.scss */
+/* line 74, ../scss/partials/_styles.scss */
 .personal-intro .large {
   display: block;
   font-size: 44px;
 }
 
-/* line 70, ../scss/partials/_styles.scss */
+/* line 78, ../scss/partials/_styles.scss */
 .starting-questions p {
   color: #BCD430;
   font-size: 20px;
 }
 
-/* line 74, ../scss/partials/_styles.scss */
+/* line 82, ../scss/partials/_styles.scss */
 .starting-questions .large {
   display: block;
   font-size: 36px;
   line-height: 43px;
 }
 
-/* line 81, ../scss/partials/_styles.scss */
+/* line 89, ../scss/partials/_styles.scss */
 .question-and-answer p {
   text-align: center;
   color: #FFFFFF;
 }
 
-/* line 86, ../scss/partials/_styles.scss */
+/* line 94, ../scss/partials/_styles.scss */
 .question-and-answer button,
 .question-and-answer .question-line {
   display: block;
   margin: 0 auto;
 }
 
-/* line 91, ../scss/partials/_styles.scss */
+/* line 99, ../scss/partials/_styles.scss */
+.question span {
+  font-size: 20px;
+  line-height: 43px;
+}
+
+/* line 103, ../scss/partials/_styles.scss */
+.answer span {
+  font-size: 36px;
+  line-height: 2em;
+}
+
+/* line 108, ../scss/partials/_styles.scss */
 .first-question {
   background: #8BB34B;
 }
 
-/* line 95, ../scss/partials/_styles.scss */
+/* line 112, ../scss/partials/_styles.scss */
 .second-question {
   background: #72AE5C;
 }
 
-/* line 99, ../scss/partials/_styles.scss */
+/* line 116, ../scss/partials/_styles.scss */
 .third-question {
   background: #48A688;
 }
 
-/* line 103, ../scss/partials/_styles.scss */
+/* line 120, ../scss/partials/_styles.scss */
 .fourth-question {
   background: #00A29F;
 }
 
-/* line 107, ../scss/partials/_styles.scss */
+/* line 124, ../scss/partials/_styles.scss */
 .get-started {
   background: #009DB8;
 }
