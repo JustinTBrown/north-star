@@ -4,7 +4,7 @@
   min-width: 100%;
 }
 header{
-	height: 150px;
+	// height: 150px;
 }
 .logo{
 	// width: 150px;
@@ -87,8 +87,6 @@ a#navlink-4:hover{
 a#navlink-5:hover{
 	color: $yellow-green;
 }
-
-
 section{
 	font-weight: 300;
 	text-align: center;
@@ -116,6 +114,9 @@ section{
 	color: white;
 	font-size: 24px;
 }
+.large{
+	font-weight: 200;
+}
 .personal-intro .large{
 	display: block;
 	font-size: 44px;
@@ -141,7 +142,11 @@ section{
 }
 .question span{
 	font-size: 20px;
+	font-weight: 200;
 	line-height: 43px;
+}
+.question h2{
+	margin: 0 0 1em 0;
 }
 .circle{
 	display: inline-block;
@@ -154,18 +159,26 @@ section{
 	// font-weight: 300;
 	border-radius: 50%;
 	border: 2px solid $white;
-	margin: 2em auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 .circle .fi-arrow-down{
-	font-size: 2em;
+	font-size: 28px;
 	position: relative;
 	margin: 0;
 	// Why can't I clear the content padding in the Accordion settings?
-	top: -45%;
-	left: -10%;
+	top: -11px;
+	left: 1px;
 
 }
+// .answer{
+// 	padding: 2em 0 0 0;
+// }
+.answer p{
+	font-size: 20px;
+}
 .answer span{
+	display: block;
+	margin: 0.5em 0 0 0;
 	// font-size: 2em;
 	font-size: 36px;
 	line-height: 2em;

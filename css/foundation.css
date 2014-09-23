@@ -9013,11 +9013,6 @@ th.hide-for-touch {
   min-width: 100%;
 }
 
-/* line 6, ../scss/partials/_styles.scss */
-header {
-  height: 150px;
-}
-
 /* line 9, ../scss/partials/_styles.scss */
 .logo {
   width: 180px;
@@ -9116,14 +9111,14 @@ a#navlink-5:hover {
   color: #8BB34B;
 }
 
-/* line 92, ../scss/partials/_styles.scss */
+/* line 90, ../scss/partials/_styles.scss */
 section {
   font-weight: 300;
   text-align: center;
   padding: 3em 25em 2.5em 25em;
 }
 
-/* line 99, ../scss/partials/_styles.scss */
+/* line 97, ../scss/partials/_styles.scss */
 .introduction {
   background: url("../img/Home_image.jpg");
   background-size: 100%;
@@ -9132,61 +9127,72 @@ section {
   padding: 5em 20em;
 }
 
-/* line 108, ../scss/partials/_styles.scss */
+/* line 106, ../scss/partials/_styles.scss */
 .introduction p {
   text-align: center;
   font-weight: 300;
 }
 
-/* line 112, ../scss/partials/_styles.scss */
+/* line 110, ../scss/partials/_styles.scss */
 .personal-intro {
   margin: 0 0 10em 0;
 }
 
-/* line 115, ../scss/partials/_styles.scss */
+/* line 113, ../scss/partials/_styles.scss */
 .personal-intro p {
   color: white;
   font-size: 24px;
 }
 
-/* line 119, ../scss/partials/_styles.scss */
+/* line 117, ../scss/partials/_styles.scss */
+.large {
+  font-weight: 200;
+}
+
+/* line 120, ../scss/partials/_styles.scss */
 .personal-intro .large {
   display: block;
   font-size: 44px;
 }
 
-/* line 123, ../scss/partials/_styles.scss */
+/* line 124, ../scss/partials/_styles.scss */
 .starting-questions p {
   color: #BCD430;
   font-size: 20px;
 }
 
-/* line 127, ../scss/partials/_styles.scss */
+/* line 128, ../scss/partials/_styles.scss */
 .starting-questions .large {
   display: block;
   font-size: 36px;
   line-height: 43px;
 }
 
-/* line 134, ../scss/partials/_styles.scss */
+/* line 135, ../scss/partials/_styles.scss */
 .question-and-answer p {
   text-align: center;
   color: #FFFFFF;
 }
 
-/* line 138, ../scss/partials/_styles.scss */
+/* line 139, ../scss/partials/_styles.scss */
 .question-and-answer .question-line {
   display: block;
   margin: 0 auto;
 }
 
-/* line 142, ../scss/partials/_styles.scss */
+/* line 143, ../scss/partials/_styles.scss */
 .question span {
   font-size: 20px;
+  font-weight: 200;
   line-height: 43px;
 }
 
-/* line 146, ../scss/partials/_styles.scss */
+/* line 148, ../scss/partials/_styles.scss */
+.question h2 {
+  margin: 0 0 1em 0;
+}
+
+/* line 151, ../scss/partials/_styles.scss */
 .circle {
   display: inline-block;
   width: 50px;
@@ -9194,63 +9200,70 @@ section {
   padding: 0;
   border-radius: 50%;
   border: 2px solid #FFFFFF;
-  margin: 2em auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
-/* line 159, ../scss/partials/_styles.scss */
+/* line 164, ../scss/partials/_styles.scss */
 .circle .fi-arrow-down {
-  font-size: 2em;
+  font-size: 28px;
   position: relative;
   margin: 0;
-  top: -45%;
-  left: -10%;
+  top: -11px;
+  left: 1px;
 }
 
-/* line 168, ../scss/partials/_styles.scss */
+/* line 176, ../scss/partials/_styles.scss */
+.answer p {
+  font-size: 20px;
+}
+
+/* line 179, ../scss/partials/_styles.scss */
 .answer span {
+  display: block;
+  margin: 0.5em 0 0 0;
   font-size: 36px;
   line-height: 2em;
 }
 
-/* line 173, ../scss/partials/_styles.scss */
+/* line 186, ../scss/partials/_styles.scss */
 .first-question,
 .first-question #panel1 {
   background: #8BB34B;
 }
 
-/* line 177, ../scss/partials/_styles.scss */
+/* line 190, ../scss/partials/_styles.scss */
 .second-question,
 .second-question #panel2 {
   background: #72AE5C;
 }
 
-/* line 181, ../scss/partials/_styles.scss */
+/* line 194, ../scss/partials/_styles.scss */
 .third-question,
 .third-question #panel3 {
   background: #48A688;
 }
 
-/* line 185, ../scss/partials/_styles.scss */
+/* line 198, ../scss/partials/_styles.scss */
 .fourth-question,
 .fourth-question #panel4 {
   background: #00A29F;
   padding: 3em;
 }
 
-/* line 190, ../scss/partials/_styles.scss */
+/* line 203, ../scss/partials/_styles.scss */
 .fourth-question .answer,
 .fourth-question p {
   text-align: left;
 }
 
-/* line 194, ../scss/partials/_styles.scss */
+/* line 207, ../scss/partials/_styles.scss */
 .get-started,
 .get-started #panel5 {
   background: #009DB8;
   padding: 4.6em;
 }
 
-/* line 199, ../scss/partials/_styles.scss */
+/* line 212, ../scss/partials/_styles.scss */
 .alternate-button {
   color: #FFFFFF;
   font-size: 2em;
@@ -9259,36 +9272,36 @@ section {
   padding: 15px 46px;
 }
 
-/* line 207, ../scss/partials/_styles.scss */
+/* line 220, ../scss/partials/_styles.scss */
 .alternate-button:hover {
   color: #FFFFFF;
   background: rgba(255, 255, 255, 0.25);
 }
 
-/* line 215, ../scss/partials/_styles.scss */
+/* line 228, ../scss/partials/_styles.scss */
 footer {
   color: #595959;
   padding: 2.5em 0;
   height: 250px;
 }
 
-/* line 220, ../scss/partials/_styles.scss */
+/* line 233, ../scss/partials/_styles.scss */
 .height250 {
   height: 250px;
 }
 
-/* line 223, ../scss/partials/_styles.scss */
+/* line 236, ../scss/partials/_styles.scss */
 .footer-logo {
   width: 180px;
   margin: 0 0 2.5em 0;
 }
 
-/* line 228, ../scss/partials/_styles.scss */
+/* line 241, ../scss/partials/_styles.scss */
 .footer ul {
   list-style: none;
 }
 
-/* line 231, ../scss/partials/_styles.scss */
+/* line 244, ../scss/partials/_styles.scss */
 .copyright {
   position: absolute;
   bottom: 0;
@@ -9296,7 +9309,7 @@ footer {
   font-size: 0.8em;
 }
 
-/* line 237, ../scss/partials/_styles.scss */
+/* line 250, ../scss/partials/_styles.scss */
 .footer a {
   color: #595959;
 }
