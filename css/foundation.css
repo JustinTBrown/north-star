@@ -50,11 +50,6 @@
   margin: 1.5em 0 2em 0;
 }
 
-/* line 2, ../scss/partials/_styles.scss */
-.row {
-  min-width: 100%;
-}
-
 /* line 9, ../scss/partials/_styles.scss */
 .logo {
   width: 180px;
@@ -362,12 +357,14 @@ nav.footer {
   position: absolute;
   bottom: 0;
   margin: 0;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 /* line 266, ../scss/partials/_styles.scss */
 .footer a {
   color: #595959;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* line 347, ../scss/foundation/components/_global.scss */
@@ -525,7 +522,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 55.55556rem;
+  max-width: 1028px;
 }
 /* line 172, ../scss/foundation/components/_global.scss */
 .row:before, .row:after {
@@ -6074,7 +6071,7 @@ ul.pagination li {
   /* line 166, ../scss/foundation/components/_reveal.scss */
   .reveal-modal, dialog {
     width: 80%;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6102,7 +6099,7 @@ ul.pagination li {
   /* line 181, ../scss/foundation/components/_reveal.scss */
   .reveal-modal.tiny, dialog.tiny {
     width: 30%;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6112,7 +6109,7 @@ ul.pagination li {
   /* line 182, ../scss/foundation/components/_reveal.scss */
   .reveal-modal.small, dialog.small {
     width: 40%;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6122,7 +6119,7 @@ ul.pagination li {
   /* line 183, ../scss/foundation/components/_reveal.scss */
   .reveal-modal.medium, dialog.medium {
     width: 60%;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6132,7 +6129,7 @@ ul.pagination li {
   /* line 184, ../scss/foundation/components/_reveal.scss */
   .reveal-modal.large, dialog.large {
     width: 70%;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6142,7 +6139,7 @@ ul.pagination li {
   /* line 185, ../scss/foundation/components/_reveal.scss */
   .reveal-modal.xlarge, dialog.xlarge {
     width: 95%;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6161,7 +6158,7 @@ ul.pagination li {
   /* line 186, ../scss/foundation/components/_reveal.scss */
   .reveal-modal.full, dialog.full {
     width: 100vw;
-    max-width: 55.55556rem;
+    max-width: 1028px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -8104,7 +8101,7 @@ meta.foundation-mq-topbar {
 
   /* line 463, ../scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 55.55556rem;
+    max-width: 1028px;
     margin: 0 auto;
     margin-bottom: 0;
   }
