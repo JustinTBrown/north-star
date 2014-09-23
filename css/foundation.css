@@ -1621,7 +1621,7 @@ select {
 }
 /* line 143, ../scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.35);
 }
 /* line 146, ../scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > .content, .accordion dd > .content {
@@ -9087,27 +9087,27 @@ th.hide-for-touch {
 }
 
 /* line 75, ../scss/partials/_styles.scss */
-a#navlink-1:hover {
+a.navlink-1:hover {
   color: #009DB8;
 }
 
 /* line 78, ../scss/partials/_styles.scss */
-a#navlink-2:hover {
+a.navlink-2:hover {
   color: #00A29F;
 }
 
 /* line 81, ../scss/partials/_styles.scss */
-a#navlink-3:hover {
+a.navlink-3:hover {
   color: #48A688;
 }
 
 /* line 84, ../scss/partials/_styles.scss */
-a#navlink-4:hover {
+a.navlink-4:hover {
   color: #72AE5C;
 }
 
 /* line 87, ../scss/partials/_styles.scss */
-a#navlink-5:hover {
+a.navlink-5:hover {
   color: #8BB34B;
 }
 
@@ -9275,7 +9275,7 @@ section {
 /* line 220, ../scss/partials/_styles.scss */
 .alternate-button:hover {
   color: #FFFFFF;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 /* line 228, ../scss/partials/_styles.scss */

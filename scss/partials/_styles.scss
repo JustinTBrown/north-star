@@ -72,19 +72,19 @@ header{
 	font-size: 14px;
 	font-weight: 500;
 }
-a#navlink-1:hover{
+a.navlink-1:hover{
 	color: $blue;
 }
-a#navlink-2:hover{
+a.navlink-2:hover{
 	color: $aqua;
 }
-a#navlink-3:hover{
+a.navlink-3:hover{
 	color: $teal;
 }
-a#navlink-4:hover{
+a.navlink-4:hover{
 	color: $green;
 }
-a#navlink-5:hover{
+a.navlink-5:hover{
 	color: $yellow-green;
 }
 section{
@@ -221,7 +221,7 @@ section{
 	// color: $vapor;
 	color: $white;
 	// background: $vapor;
-	background: rgba(255,255,255,0.25);
+	background: rgba(255,255,255,0.35);
 	// color: $gainsboro;
 	// background: $smoke;
 }
