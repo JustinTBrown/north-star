@@ -4,6 +4,8 @@
 // Licensed under MIT Open Source
 // $yelow-green: #8BB34B;
 @import "foundation/settings";
+@import "partials/about";
+@import "partials/styles";
 // @import "partials/styles";
 
 // Make sure the charset is set appropriately
@@ -46,8 +48,11 @@
 @import "foundation/components/type";
 @import "foundation/components/offcanvas";
 @import "foundation/components/visibility";
+
 // @import "foundation/settings";
-@import "partials/styles";
+// @import "partials/about";
+// @import "partials/styles";
+
 // @import "partials/foundation-icons"
 // @import "global";
 
