@@ -72,6 +72,23 @@ header{
 	font-size: 14px;
 	font-weight: 500;
 }
+a#navlink-1:hover{
+	color: $blue;
+}
+a#navlink-2:hover{
+	color: $aqua;
+}
+a#navlink-3:hover{
+	color: $teal;
+}
+a#navlink-4:hover{
+	color: $green;
+}
+a#navlink-5:hover{
+	color: $yellow-green;
+}
+
+
 section{
 	font-weight: 300;
 	text-align: center;
