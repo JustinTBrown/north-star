@@ -9244,26 +9244,30 @@ section {
 }
 
 /* line 198, ../scss/partials/_styles.scss */
+.fourth-question {
+  padding: 3em 0 3em 0;
+}
+
+/* line 201, ../scss/partials/_styles.scss */
 .fourth-question,
 .fourth-question #panel4 {
   background: #00A29F;
-  padding: 3em;
 }
 
-/* line 203, ../scss/partials/_styles.scss */
+/* line 207, ../scss/partials/_styles.scss */
 .fourth-question .answer,
 .fourth-question p {
   text-align: left;
 }
 
-/* line 207, ../scss/partials/_styles.scss */
+/* line 211, ../scss/partials/_styles.scss */
 .get-started,
 .get-started #panel5 {
   background: #009DB8;
   padding: 4.6em;
 }
 
-/* line 212, ../scss/partials/_styles.scss */
+/* line 216, ../scss/partials/_styles.scss */
 .alternate-button {
   color: #FFFFFF;
   font-size: 2em;
@@ -9272,41 +9276,41 @@ section {
   padding: 15px 46px;
 }
 
-/* line 220, ../scss/partials/_styles.scss */
+/* line 224, ../scss/partials/_styles.scss */
 .alternate-button:hover {
   color: #FFFFFF;
   background: rgba(255, 255, 255, 0.35);
 }
 
-/* line 228, ../scss/partials/_styles.scss */
+/* line 232, ../scss/partials/_styles.scss */
 footer {
   color: #595959;
   padding: 2.5em 0;
   height: 250px;
 }
 
-/* line 233, ../scss/partials/_styles.scss */
+/* line 237, ../scss/partials/_styles.scss */
 .height250 {
   height: 250px;
 }
 
-/* line 236, ../scss/partials/_styles.scss */
+/* line 240, ../scss/partials/_styles.scss */
 .footer-logo {
   width: 180px;
   margin: 0 0 2.5em 0;
 }
 
-/* line 244, ../scss/partials/_styles.scss */
+/* line 248, ../scss/partials/_styles.scss */
 nav.footer {
   border-left: solid 1px #009DB8;
 }
 
-/* line 248, ../scss/partials/_styles.scss */
+/* line 252, ../scss/partials/_styles.scss */
 .footer ul {
   list-style: none;
 }
 
-/* line 251, ../scss/partials/_styles.scss */
+/* line 255, ../scss/partials/_styles.scss */
 .copyright {
   position: absolute;
   bottom: 0;
@@ -9314,7 +9318,7 @@ nav.footer {
   font-size: 0.8em;
 }
 
-/* line 257, ../scss/partials/_styles.scss */
+/* line 261, ../scss/partials/_styles.scss */
 .footer a {
   color: #595959;
 }

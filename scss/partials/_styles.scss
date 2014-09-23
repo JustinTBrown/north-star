@@ -195,10 +195,14 @@ section{
 .third-question #panel3{
 	background: $teal;
 }
+.fourth-question{
+	padding: 3em 0 3em 0;
+}
 .fourth-question,
 .fourth-question #panel4{
 	background: $aqua;
-	padding: 3em;
+	// padding: 0 0 1em 0;
+	// padding: 0;
 }
 .fourth-question .answer,
 .fourth-question p{
