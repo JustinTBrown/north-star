@@ -9296,12 +9296,17 @@ footer {
   margin: 0 0 2.5em 0;
 }
 
-/* line 241, ../scss/partials/_styles.scss */
+/* line 244, ../scss/partials/_styles.scss */
+nav.footer {
+  border-left: solid 1px #009DB8;
+}
+
+/* line 248, ../scss/partials/_styles.scss */
 .footer ul {
   list-style: none;
 }
 
-/* line 244, ../scss/partials/_styles.scss */
+/* line 251, ../scss/partials/_styles.scss */
 .copyright {
   position: absolute;
   bottom: 0;
@@ -9309,7 +9314,7 @@ footer {
   font-size: 0.8em;
 }
 
-/* line 250, ../scss/partials/_styles.scss */
+/* line 257, ../scss/partials/_styles.scss */
 .footer a {
   color: #595959;
 }

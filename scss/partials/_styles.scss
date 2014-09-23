@@ -238,6 +238,13 @@ footer{
 	// height: 120px;
 	margin: 0 0 2.5em 0;
 }
+footer .large-4{
+	// border-left: solid 1px $blue;
+}
+nav.footer{
+	border-left: solid 1px $blue;
+
+}
 .footer ul{
 	list-style: none;
 }
