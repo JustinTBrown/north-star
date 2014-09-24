@@ -86,8 +86,11 @@ a.sign-in:hover{
 	margin: 0;
 }
 .main li{
+	display: inline-block;
 	display: inline;
 	margin: 0 2em 0 0;
+	white-space: nowrap;
+	// break-after: always;
 	// hi?
 }
 .main li:last-of-type{
