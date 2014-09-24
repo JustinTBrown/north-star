@@ -13,24 +13,32 @@ header{
 	width: 180px;
 	height: 120px;
 	// margin: 35px;
-	margin: 20px auto;
-	@media #{$medium-up} {
+	margin: 40px auto 10px auto;
+	@media #{$large-up} {
 		margin: 20px;
 		
 	};
 }
 .navigation{
+	// border-top: 1px solid $grey;
+	border-top: 2px solid $blue;
 	// float: right;
 	text-align: right;
-	padding: 18px 0 0 0;
-	@media #{$medium-up} {
+	padding: 10px 0 0 0;
+	@media #{$large-up} {
+		padding: 18px 0 0 0;
+		border-top: none;
 		height: 150px;
 	};
 }
 .sign-up-in{
 	margin: 0 0 1em 0;
-	@media #{$medium-up} {
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid $iron;
+	@media #{$large-up} {
 		margin: 0;
+		padding: 0;
+		border-bottom: 0;
 	};
 }
 .sign-up-in a{
@@ -46,7 +54,7 @@ header{
 a.sign-up{
 	display: inline-block;
 	margin: 0 2em 0 0;
-	@media #{$medium-up} {
+	@media #{$large-up} {
 		display: block;
 		margin: 0;
 	};
@@ -66,7 +74,7 @@ a.sign-in:hover{
 	// position: static;
 	margin: 0 0 1em 0;
 	text-align: center;
-	@media #{$medium-up} {
+	@media #{$large-up} {
 		text-align: right;
 		position: absolute;
 		bottom: 30px;
@@ -113,45 +121,81 @@ section{
 
 // INTRODUCTION SECTION
 .introduction{
-	// background: $oil;
 	background: url("../img/Home_image.jpg");
-	background-size: 100%;
-	background-position: 0 -150px;
-	// width: 100%;
-	height: 612px;
-	padding: 5em 20em;
+	// background-position: -200px -100px;
+	background-position: center;
+	height: 420px;
+	padding: 3em 0;
+	@media #{$large-up} {
+		// background: $oil;
+		background-size: 100%;
+		// background-position: 0 -150px;
+		background-position: center;
+		// width: 100%;
+		height: 612px;
+		padding: 5em 0;
+	}
+}
+.introduction .row{
+	height: 420px;
+	@media #{$large-up} {
+		height: 612px;
+	};
 }
 .introduction p{
 	text-align: center;
-	font-weight: 300;
+	font-weight: 200;
 }
 .personal-intro{
-	margin: 0 0 10em 0;
+	margin: 0 0 4em 0;
+	@media #{$large-up} {
+		margin: 0 0 10em 0;
+	};
 }
 .personal-intro p{
 	color: white;
-	font-size: 24px;
+	font-size: 1.3em;
+	@media #{$large-up} {
+		font-size: 24px;
+	};
 }
 .large{
 	font-weight: 200;
 }
 .personal-intro .large{
 	display: block;
-	font-size: 44px;
+	font-size: 1.5em;
+	line-height: 0.9em;
+	@media #{$large-up} {
+		font-size: 44px;
+	};
+}
+.starting-questions{
+	position: absolute;
+	bottom: 4em;
+	@media #{$large-up} {
+		bottom: 9em;
+	};
 }
 .starting-questions p{
 	color: #BCD430;
-	font-size: 20px;
+	font-size: 1.1em;
+	@media #{$large-up} {
+		font-size: 20px;
+	};
 }
 .starting-questions .large{
 	display: block;
-	font-size: 36px;
+	font-size: 1.5em;
 	line-height: 43px;
+	@media #{$large-up} {
+		font-size: 36px;
+	};
 }
 
 // QUESTION & ANSWER SECTIONS
 .question-and-answer{
-	padding: 3em 25em 2.5em 25em;
+	padding: 3em 0 2.5em 0;
 }
 .question-and-answer p{
 	text-align: center;
