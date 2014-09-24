@@ -212,6 +212,7 @@ section{
 }
 .question h2{
 	margin: 0 0 1em 0;
+	font-size: 36px;
 }
 .circle{
 	display: inline-block;
@@ -243,10 +244,12 @@ section{
 }
 .answer span{
 	display: block;
-	margin: 0.5em 0 0 0;
+	// margin: 0.5em 0 0 0;
+	margin: 0.7em 0 25px 0;
 	// font-size: 2em;
 	font-size: 36px;
-	line-height: 2em;
+	// line-height: 2em;
+	line-height: 43px;
 }
 .first-question,
 .first-question #panel1{
@@ -301,29 +304,53 @@ footer{
 	padding: 2.5em 0;
 	height: 250px;
 }
-.height250{
-	height: 250px;
+footer .content{
+	@media #{$large-up} {
+		height: 250px;
+	};
 }
 .footer-logo{
 	width: 180px;
+	display: block;
+	margin: 0 auto 2em auto;
 	// height: 120px;
-	margin: 0 0 2.5em 0;
+	@media #{$large-up} {
+		margin: 0 0 2.5em 0;
+	};
 }
 footer .large-4{
-	// border-left: solid 1px $blue;
 }
 nav.footer{
-	border-left: solid 1px $blue;
+	border-bottom: solid 2px $blue;
+	padding: 0 0 1em 0;
+	margin: 0 0 3em 0;
+	@media #{$large-up} {
+		border-left: solid 1px $blue;
+		border-bottom: none;
+		margin: 0;
+	};
 
 }
 .footer ul{
 	list-style: none;
 }
+// .footer ul > span{
+// 	display: block;
+// 	margin: 11px 0;
+// 	border-bottom: 1px solid $iron;
+// 	@media #{$large-up} {
+// 		border-bottom: 1px solid transparent;
+// 	}
+// }
 .copyright{
-	position: absolute;
-	bottom: 0;
-	margin: 0;
+	text-align: center;
 	font-size: 0.7em;
+	@media #{$large-up} {
+		position: absolute;
+		bottom: 0;
+		margin: 0;
+		text-align: left;
+	};
 }
 .footer a{
 	color: $grey;
