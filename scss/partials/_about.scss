@@ -2,13 +2,13 @@
 	background: url(../img/AboutUs_image.jpg);
 	height: 300px;
 	background-position: center;
-	background-size: 200%;
+	background-size: 175%;
 	@media #{$medium-up} {
 		height: 400px;
-		background-size: 150%;
+		background-size: 130%;
 	};
 	@media #{$large-up} {
-		background-size: 100%;
+		background-size: 105%;
 		height: 492px;
 	};
 }
