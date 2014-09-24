@@ -86,10 +86,14 @@ a.sign-in:hover{
 	margin: 0;
 }
 .main li{
-	display: inline-block;
-	display: inline;
-	margin: 0 2em 0 0;
+	// list-style: disc;
 	white-space: nowrap;
+	display: inline;
+	// display: list-item;
+	margin: 0 2em 0 0;
+	@media #{$large-up} {
+		white-space: normal;
+	};
 	// break-after: always;
 	// hi?
 }
