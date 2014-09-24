@@ -1,0 +1,14 @@
+s3_bucket: ENV['NS_DEV_BUCK']
+s3_access_key: ENV['SERV_ACCESS_KEY_ID']
+s3_secret_key: ENV['SERV_SECRET_ACCESS_KEY']
+cloudfront_distribution_id: '...' # (optional)
+s3_bucket_endpoint: ENV['NS_DEV_REGION'] # (set this if you're not in the standard US zone)
+
+exclude_files:
+- .sass-cache
+- /bower_components
+- /config
+- /doc
+- /scss
+- /spec
+- simple-s3.yml

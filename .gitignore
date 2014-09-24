@@ -12,6 +12,7 @@
 .idea
 .sass-cache/*
 .yardoc
+.simple-s3.yml
 
 bower_components
 dist
