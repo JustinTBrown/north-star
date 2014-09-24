@@ -7,54 +7,72 @@ header{
 	// height: 150px;
 }
 .logo{
+	// text-align: center;
 	// width: 150px;
 	// height: 100px;
 	width: 180px;
 	height: 120px;
 	// margin: 35px;
-	margin: 20px;
+	margin: 20px auto;
+	@media #{$medium-up} {
+		margin: 20px;
+		
+	};
 }
 .navigation{
 	// float: right;
 	text-align: right;
-	height: 150px;
 	padding: 18px 0 0 0;
+	@media #{$medium-up} {
+		height: 150px;
+	};
 }
 .sign-up-in{
-	// float: right;
-	// position: absolute;
-	// right: 0;
-	// text-align: right;
-	// margin: 0px 0 10px 0;
+	margin: 0 0 1em 0;
+	@media #{$medium-up} {
+		margin: 0;
+	};
 }
 .sign-up-in a{
-	// display: block;
-	// display: inline-block;
 	color: $grey;
 	font-size: 0.66em;
 	font-weight: 400;
 	margin: 0 0 5px 0;
 }
-.sign-up-in a:hover{
-	color: $blue;
-}
-.sign-up-in a.button:hover{
-	color: $grey;
-}
-.block{
-	display: block;
-}
 .sign-up-in a:last-child{
 	// margin: 18px 0 0 0;
 	margin: 0;
 }
+a.sign-up{
+	display: inline-block;
+	margin: 0 2em 0 0;
+	@media #{$medium-up} {
+		display: block;
+		margin: 0;
+	};
+}
+a.sign-up:hover{
+	color: $blue;
+}
+a.sign-in{
+
+}
+a.sign-in:hover{
+	color: $grey;
+}
 .main{
 	// float: right;
 	// position: relative;
-	position: absolute;
-	right: 20px;
-	bottom: 30px;
-	text-align: right;
+	// position: static;
+	margin: 0 0 1em 0;
+	text-align: center;
+	@media #{$medium-up} {
+		text-align: right;
+		position: absolute;
+		bottom: 30px;
+		right: 20px;
+		margin: 0;
+	};
 }
 .main ul{
 	margin: 0;
