@@ -131,11 +131,13 @@ section{
 	background: url("../img/Home_image.jpg");
 	// background-position: -200px -100px;
 	background-position: center;
+	background-size: cover;
 	height: 420px;
 	padding: 3em 0;
 	@media #{$large-up} {
 		// background: $oil;
-		background-size: 100%;
+		// background-size: 100%;
+		background-size: cover;
 		// background-position: 0 -150px;
 		background-position: center;
 		// width: 100%;

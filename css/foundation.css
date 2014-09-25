@@ -4,24 +4,24 @@
   background: url(../img/AboutUs_image.jpg);
   height: 300px;
   background-position: center;
-  background-size: 175%;
+  background-size: cover;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 1, ../scss/partials/_about.scss */
   .hero {
     height: 400px;
-    background-size: 130%;
+    background-position: top;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 1, ../scss/partials/_about.scss */
   .hero {
-    background-size: 105%;
+    background-position: top;
     height: 492px;
   }
 }
 
-/* line 15, ../scss/partials/_about.scss */
+/* line 18, ../scss/partials/_about.scss */
 .about-us {
   border-top: solid 2px #FFFFFF;
   padding: 76px 0 120px 0;
@@ -29,7 +29,7 @@
   text-align: left;
 }
 
-/* line 21, ../scss/partials/_about.scss */
+/* line 24, ../scss/partials/_about.scss */
 .about-us h1 {
   font-size: 20px;
   font-weight: 200;
@@ -37,7 +37,7 @@
   margin: 0;
 }
 
-/* line 27, ../scss/partials/_about.scss */
+/* line 30, ../scss/partials/_about.scss */
 .about-us h2 {
   font-size: 36px;
   font-weight: 200;
@@ -45,14 +45,14 @@
   margin: 0 0 20px 0;
 }
 
-/* line 33, ../scss/partials/_about.scss */
+/* line 36, ../scss/partials/_about.scss */
 .about-us p {
   font-size: 20px;
   font-weight: 200;
   line-height: 24px;
 }
 
-/* line 41, ../scss/partials/_about.scss */
+/* line 44, ../scss/partials/_about.scss */
 .about-us h3 {
   font-size: 30px;
   font-weight: 200;
@@ -60,7 +60,7 @@
   margin: 0 0 20px 0;
 }
 
-/* line 47, ../scss/partials/_about.scss */
+/* line 50, ../scss/partials/_about.scss */
 .about-us button.alternate-button {
   margin: 1.5em 0 2em 0;
 }
@@ -225,145 +225,146 @@ section {
 .introduction {
   background: url("../img/Home_image.jpg");
   background-position: center;
+  background-size: cover;
   height: 420px;
   padding: 3em 0;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 130, ../scss/partials/_styles.scss */
   .introduction {
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     height: 612px;
     padding: 5em 0;
   }
 }
 
-/* line 146, ../scss/partials/_styles.scss */
+/* line 148, ../scss/partials/_styles.scss */
 .introduction .row {
   height: 420px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 146, ../scss/partials/_styles.scss */
+  /* line 148, ../scss/partials/_styles.scss */
   .introduction .row {
     height: 612px;
   }
 }
 
-/* line 152, ../scss/partials/_styles.scss */
+/* line 154, ../scss/partials/_styles.scss */
 .introduction p {
   text-align: center;
   font-weight: 200;
 }
 
-/* line 156, ../scss/partials/_styles.scss */
+/* line 158, ../scss/partials/_styles.scss */
 .personal-intro {
   margin: 0 0 4em 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 156, ../scss/partials/_styles.scss */
+  /* line 158, ../scss/partials/_styles.scss */
   .personal-intro {
     margin: 0 0 10em 0;
   }
 }
 
-/* line 162, ../scss/partials/_styles.scss */
+/* line 164, ../scss/partials/_styles.scss */
 .personal-intro p {
   color: white;
   font-size: 1.3em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 162, ../scss/partials/_styles.scss */
+  /* line 164, ../scss/partials/_styles.scss */
   .personal-intro p {
     font-size: 24px;
   }
 }
 
-/* line 169, ../scss/partials/_styles.scss */
+/* line 171, ../scss/partials/_styles.scss */
 .large {
   font-weight: 200;
 }
 
-/* line 172, ../scss/partials/_styles.scss */
+/* line 174, ../scss/partials/_styles.scss */
 .personal-intro .large {
   display: block;
   font-size: 1.5em;
   line-height: 0.9em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 172, ../scss/partials/_styles.scss */
+  /* line 174, ../scss/partials/_styles.scss */
   .personal-intro .large {
     font-size: 44px;
   }
 }
 
-/* line 180, ../scss/partials/_styles.scss */
+/* line 182, ../scss/partials/_styles.scss */
 .starting-questions {
   position: absolute;
   bottom: 4em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 180, ../scss/partials/_styles.scss */
+  /* line 182, ../scss/partials/_styles.scss */
   .starting-questions {
     bottom: 9em;
   }
 }
 
-/* line 187, ../scss/partials/_styles.scss */
+/* line 189, ../scss/partials/_styles.scss */
 .starting-questions p {
   color: #BCD430;
   font-size: 1.1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 187, ../scss/partials/_styles.scss */
+  /* line 189, ../scss/partials/_styles.scss */
   .starting-questions p {
     font-size: 20px;
   }
 }
 
-/* line 194, ../scss/partials/_styles.scss */
+/* line 196, ../scss/partials/_styles.scss */
 .starting-questions .large {
   display: block;
   font-size: 1.5em;
   line-height: 43px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 194, ../scss/partials/_styles.scss */
+  /* line 196, ../scss/partials/_styles.scss */
   .starting-questions .large {
     font-size: 36px;
   }
 }
 
-/* line 204, ../scss/partials/_styles.scss */
+/* line 206, ../scss/partials/_styles.scss */
 .question-and-answer {
   padding: 3em 0 2.5em 0;
 }
 
-/* line 207, ../scss/partials/_styles.scss */
+/* line 209, ../scss/partials/_styles.scss */
 .question-and-answer p {
   text-align: center;
   color: #FFFFFF;
 }
 
-/* line 211, ../scss/partials/_styles.scss */
+/* line 213, ../scss/partials/_styles.scss */
 .question-and-answer .question-line {
   display: block;
   margin: 0 auto;
 }
 
-/* line 215, ../scss/partials/_styles.scss */
+/* line 217, ../scss/partials/_styles.scss */
 .question span {
   font-size: 20px;
   font-weight: 200;
   line-height: 43px;
 }
 
-/* line 220, ../scss/partials/_styles.scss */
+/* line 222, ../scss/partials/_styles.scss */
 .question h2 {
   margin: 0 0 1em 0;
   font-size: 36px;
 }
 
-/* line 224, ../scss/partials/_styles.scss */
+/* line 226, ../scss/partials/_styles.scss */
 .circle {
   display: inline-block;
   width: 50px;
@@ -374,7 +375,7 @@ section {
   margin: 0 auto 0 auto;
 }
 
-/* line 237, ../scss/partials/_styles.scss */
+/* line 239, ../scss/partials/_styles.scss */
 .circle .fi-arrow-down {
   font-size: 28px;
   position: relative;
@@ -383,12 +384,12 @@ section {
   left: 1px;
 }
 
-/* line 249, ../scss/partials/_styles.scss */
+/* line 251, ../scss/partials/_styles.scss */
 .answer p {
   font-size: 20px;
 }
 
-/* line 252, ../scss/partials/_styles.scss */
+/* line 254, ../scss/partials/_styles.scss */
 .answer span {
   display: block;
   margin: 0.7em 0 25px 0;
@@ -396,48 +397,48 @@ section {
   line-height: 43px;
 }
 
-/* line 261, ../scss/partials/_styles.scss */
+/* line 263, ../scss/partials/_styles.scss */
 .first-question,
 .first-question #panel1 {
   background: #8BB34B;
 }
 
-/* line 265, ../scss/partials/_styles.scss */
+/* line 267, ../scss/partials/_styles.scss */
 .second-question,
 .second-question #panel2 {
   background: #72AE5C;
 }
 
-/* line 269, ../scss/partials/_styles.scss */
+/* line 271, ../scss/partials/_styles.scss */
 .third-question,
 .third-question #panel3 {
   background: #48A688;
 }
 
-/* line 273, ../scss/partials/_styles.scss */
+/* line 275, ../scss/partials/_styles.scss */
 .fourth-question {
   padding: 3em 0 3em 0;
 }
 
-/* line 276, ../scss/partials/_styles.scss */
+/* line 278, ../scss/partials/_styles.scss */
 .fourth-question,
 .fourth-question #panel4 {
   background: #00A29F;
 }
 
-/* line 282, ../scss/partials/_styles.scss */
+/* line 284, ../scss/partials/_styles.scss */
 .fourth-question .answer,
 .fourth-question p {
   text-align: left;
 }
 
-/* line 286, ../scss/partials/_styles.scss */
+/* line 288, ../scss/partials/_styles.scss */
 .get-started,
 .get-started #panel5 {
   background: #009DB8;
 }
 
-/* line 291, ../scss/partials/_styles.scss */
+/* line 293, ../scss/partials/_styles.scss */
 .alternate-button,
 button.alternate-button {
   color: #FFFFFF;
@@ -448,13 +449,13 @@ button.alternate-button {
   margin: 60px auto;
 }
 
-/* line 301, ../scss/partials/_styles.scss */
+/* line 303, ../scss/partials/_styles.scss */
 .alternate-button:hover {
   color: #FFFFFF;
   background: rgba(255, 255, 255, 0.35);
 }
 
-/* line 309, ../scss/partials/_styles.scss */
+/* line 311, ../scss/partials/_styles.scss */
 footer {
   color: #595959;
   padding: 2.5em 0;
@@ -462,33 +463,33 @@ footer {
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 314, ../scss/partials/_styles.scss */
+  /* line 316, ../scss/partials/_styles.scss */
   footer .content {
     height: 250px;
   }
 }
 
-/* line 319, ../scss/partials/_styles.scss */
+/* line 321, ../scss/partials/_styles.scss */
 .footer-logo {
   width: 180px;
   display: block;
   margin: 0 auto 2em auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 319, ../scss/partials/_styles.scss */
+  /* line 321, ../scss/partials/_styles.scss */
   .footer-logo {
     margin: 0 0 2.5em 0;
   }
 }
 
-/* line 330, ../scss/partials/_styles.scss */
+/* line 332, ../scss/partials/_styles.scss */
 nav.footer {
   border-bottom: solid 2px #009DB8;
   padding: 0 0 1em 0;
   margin: 0 0 3em 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 330, ../scss/partials/_styles.scss */
+  /* line 332, ../scss/partials/_styles.scss */
   nav.footer {
     border-left: solid 1px #009DB8;
     border-bottom: none;
@@ -496,18 +497,18 @@ nav.footer {
   }
 }
 
-/* line 341, ../scss/partials/_styles.scss */
+/* line 343, ../scss/partials/_styles.scss */
 .footer ul {
   list-style: none;
 }
 
-/* line 352, ../scss/partials/_styles.scss */
+/* line 354, ../scss/partials/_styles.scss */
 .copyright {
   text-align: center;
   font-size: 0.7em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 352, ../scss/partials/_styles.scss */
+  /* line 354, ../scss/partials/_styles.scss */
   .copyright {
     position: absolute;
     bottom: 0;
@@ -516,7 +517,7 @@ nav.footer {
   }
 }
 
-/* line 362, ../scss/partials/_styles.scss */
+/* line 364, ../scss/partials/_styles.scss */
 .footer a {
   color: #595959;
   font-size: 14px;
